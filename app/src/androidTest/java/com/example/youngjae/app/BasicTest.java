@@ -5,10 +5,16 @@ package com.example.youngjae.app;
  */
 
 import junit.framework.TestCase;
+import org.json.JSONObject;
 
 public class BasicTest extends TestCase {
-	public void testSimple() {
+	public void testAdder() {
 		Adder adder = new Adder();
 		assertEquals(5, adder.add(2, 3));
 	}
+
+	public void testJson(){
+		JSONObject jsonObject = new JSONObject();
+	}
+
 }
